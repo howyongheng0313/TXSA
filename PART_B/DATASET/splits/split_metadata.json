@@ -1,0 +1,23 @@
+{
+  "source": "DATASET/test.csv",
+  "source_sha256": "b8ba6d26959621c7f96148ea5169f7aee9953a7a3e6551dd0dcae9f09b2dd28a",
+  "random_state": 42,
+  "test_size": 0.3,
+  "stratify": "label",
+  "source_row_index_definition": "Zero-based parsed CSV record index, excluding the header; not a physical line number.",
+  "label_counts": {
+    "Full": {
+      "benign": 3001,
+      "jailbreak": 1999
+    },
+    "Train": {
+      "benign": 2101,
+      "jailbreak": 1399
+    },
+    "Test": {
+      "benign": 900,
+      "jailbreak": 600
+    }
+  },
+  "scikit_learn_version": "1.9.1"
+}
